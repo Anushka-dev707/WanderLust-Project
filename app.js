@@ -49,15 +49,28 @@ store.on("error",() => {
     console.log("ERROR IN MONGO SESSION STORE",err);
 });
 
+// const sessionOptions = {
+//     store,
+//     secret: process.env.SECRET,
+//     resave: false,
+//     saveUninitialized: true,
+//     cookie: {
+//         expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
+//         maxAge: 7 * 24 * 60 * 60 * 1000,
+//         httpOnly: true,
+//     },
+// };
 const sessionOptions = {
     store,
     secret: process.env.SECRET,
     resave: false,
-    saveUninitialized: true,
+    saveUninitialized: false,   // IMPORTANT CHANGE
     cookie: {
         expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
         maxAge: 7 * 24 * 60 * 60 * 1000,
         httpOnly: true,
+        secure: true,           // IMPORTANT
+        sameSite: "none",       // IMPORTANT
     },
 };
 
