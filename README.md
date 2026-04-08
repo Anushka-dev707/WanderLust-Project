@@ -34,11 +34,6 @@ WanderLust is a full-stack travel accommodation platform inspired by Airbnb, whe
 **Architecture:**  
 - MVC (Model-View-Controller)
 
-  Got it 👍 — you want **clear headings + proper separation + highlighted sections** so your README looks clean and professional.
-
-Here’s the **improved README format** (with proper spacing, headings, and structure 👇):
-
----
 
 ````md
 # ⚙️ Installation & Setup
