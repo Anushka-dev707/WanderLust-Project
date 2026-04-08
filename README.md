@@ -32,22 +32,34 @@ WanderLust is a full-stack travel accommodation platform inspired by Airbnb, whe
 - Cloudinary (Image Storage)  
 
 **Architecture:**  
-- MVC (Model-View-Controller)  
+- MVC (Model-View-Controller)
 
+  Got it 👍 — you want **clear headings + proper separation + highlighted sections** so your README looks clean and professional.
 
+Here’s the **improved README format** (with proper spacing, headings, and structure 👇):
 
 ---
 
-## ⚙️ Installation & Setup
+````md
+# ⚙️ Installation & Setup
 
-1. Clone the repository:
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Anushka-dev707/WanderLust-Project.git
 cd WanderLust-Project
+````
 
-Install dependencies:
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
-Create a .env file and add:
+```
+
+### 3️⃣ Configure Environment Variables
+
+Create a `.env` file and add:
+
+```env
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_key
 CLOUDINARY_SECRET=your_secret
@@ -56,11 +68,25 @@ MAPBOX_TOKEN=your_mapbox_token
 
 DB_URL=your_mongodb_connection_string
 SESSION_SECRET=your_secret
-Run the application:
+```
+
+### 4️⃣ Run the Application
+
+```bash
 node app.js
-Open in browser:
+```
+
+### 5️⃣ Open in Browser
+
+```
 http://localhost:3000
-📂 Project Structure
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
 WanderLust/
 │── models/        # Database schemas
 │── routes/        # Express routes
@@ -69,8 +95,20 @@ WanderLust/
 │── public/        # Static files (CSS, JS)
 │── utils/         # Helper functions
 │── app.js         # Main server file
-💡 Key Highlights
-Designed using MVC architecture for scalability and clean code organization
-Integrated Mapbox API for real-time map visualization
-Used Cloudinary for efficient image storage and delivery
-Implemented full CRUD operations for listings and reviews
+```
+
+---
+
+# 💡 Key Highlights
+
+* Designed using **MVC architecture** for scalability and clean code organization
+* Integrated **Mapbox API** for real-time map visualization
+* Used **Cloudinary** for efficient image storage and delivery
+* Implemented full **CRUD operations** for listings and reviews
+
+---
+
+
+
+
+
