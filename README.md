@@ -34,6 +34,24 @@ WanderLust is a full-stack travel accommodation platform inspired by Airbnb, whe
 **Architecture:**  
 - MVC (Model-View-Controller)
 
+📸 Screenshots
+🏠 Home Page
+![Home Page](homepage.png)
+
+📋 Property Listing Page
+![Listings](listings.png)
+
+📝 Listing Details Page
+![Listing Details](details.png)
+
+🗺️ Map Integration
+![Mapbox Integration](map.png)
+
+🔐 Login & Signup
+![Login Page](login.png)
+
+⭐ Reviews and Ratings
+![Reviews](reviews.png)
 
 ````md
 # ⚙️ Installation & Setup
